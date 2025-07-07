@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<script src="quote.js"></script>
+	<link rel="stylesheet" href="quotes.css">
+	<script>
+		var count=0;
+		function increase()
+		{
+			count++
+			if(count>=quote.length)			
+			{
+				count=0
+			}
+			document.getElementById("box").innerHTML="<center>"+quote[count]+"<br><br>"+writer[count]+"</center>";
+			document.getElementById("pc").src=pic[count];
+		}
+	</script>
+</head>
+<body>
+	<div id="box"><p id="para">Fight so hard, play so hard, that the result stops mattering.<br><br></p><p id="para1">Prashant Acharya</p>
+	</div>
+	<div id="subbox"><img src="prashant.jpg" id="pc"></div>
+	<div id="box1"><img src="less.jpg" onclick="decrese()"></div>
+	<div id="box2"><img src="greater.jpg" onclick="increase()"></div>
+</body>
+</html>

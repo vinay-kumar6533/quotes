@@ -1,0 +1,3 @@
+var quote=new Array("Fight so hard, play so hard, that the result stops mattering.","It Is Very Easy To Defeat Someone, But It Is Very Hard To Win Someone","Love does not claim possession, but gives freedom","Patience is a key element of success.","If you want to walk fast, walk alone. If you want to walk far, walk together");
+var writer=new Array("Prashant Acharya","APJ.Abdul Kalam","Rabindra Nath Tagore","Bill gates","Ratan tata");
+var pic=new Array("prashant.jpg","apj.jpg","rabindra.jpg","bill.jpg","tata.jpg");
